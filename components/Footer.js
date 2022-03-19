@@ -80,7 +80,7 @@ export default function Footer() {
         </Heading>
         <Stack direction={"row"} spacing={6}>
           <NextLink href="/">Home</NextLink>
-          <Link href={"https://github.com/jatin-02"} isExternal>
+          <Link href={"https://github.com/jatin-02/Spartans"} isExternal>
             Github
           </Link>
           <Link href={"jatinsoni1202@gmail.com"} isExternal>
