@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+html,
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #76e4f7;
+}
+
+main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient {
+  background-color: #37d5d6;
+  background-image: linear-gradient(45deg, #37d5d6, #313131);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-family: "Ubuntu", sans-serif !important;
+  font-weight: bolder;
+}
